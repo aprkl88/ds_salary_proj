@@ -3,3 +3,9 @@
 git init - for initializing the repo
 
 "git add ."
+
+SHA256:t3tEHmGc91FHkL3xDVdDDhPpwX1B/RyVo17TI/terkw aswin@DESKTOP-SDP611G
+
+$ git checkout -b data_cleaning  ## switched to new branch name
+
+  
