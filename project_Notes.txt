@@ -1,0 +1,5 @@
+
+
+git init - for initializing the repo
+
+"git add ."
