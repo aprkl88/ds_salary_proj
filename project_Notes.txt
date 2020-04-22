@@ -7,5 +7,14 @@ git init - for initializing the repo
 SHA256:t3tEHmGc91FHkL3xDVdDDhPpwX1B/RyVo17TI/terkw aswin@DESKTOP-SDP611G
 
 $ git checkout -b data_cleaning  ## switched to new branch name
+git add . ## add branch datas
 
-  
+$ git commit -m "data cleaning script created"  
+$ git push --set-upstream origin data_cleaning ## creates new branch
+
+
+sns.heatmap
+sns.barplot
+pd.pivot_table(df,index='job_state',values='avg_salary').sort_values('avg_salary',ascending=False)   ##pivot table
+
+df_pivots = df[['Rating', 'Industry', 'Sector'] ##indicates data frame  ie,df[[]]
