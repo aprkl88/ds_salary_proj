@@ -18,3 +18,16 @@ sns.barplot
 pd.pivot_table(df,index='job_state',values='avg_salary').sort_values('avg_salary',ascending=False)   ##pivot table
 
 df_pivots = df[['Rating', 'Industry', 'Sector'] ##indicates data frame  ie,df[[]]
+
+
+
+##MODEL CREATION
+
+# get dummy data 
+df_dum = pd.get_dummies(df_model)
+
+oridinary least square method for linear regression using statmodel
+
+from sklearn.model_selection import cross_val_score 
+
+GridSearchCV implements a “fit” and a “score” method.
